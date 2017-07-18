@@ -1,0 +1,92 @@
+body{
+    margin: 10px 0;
+    font-family: Helvetica,STHeiTi,sans-serif;
+}
+
+.search-wrap{
+    width:100%;
+    height:45px;
+    background-color: #ebeced;
+    box-sizing: border-box;
+    display: -webkit-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    padding: 0 10px;
+}
+
+.search-content{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    -moz-box-flex: 1;
+    display: -webkit-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+}
+
+.search-icon-search{
+    height: 20px;
+    width: 20px;
+    background-image: url("img/search.png");
+    background-size: 20px 20px;
+    margin-left: 2px;
+}
+
+.search-text{
+    margin:0 3px;
+
+}
+.search-icon-delete{
+    height: 15px;
+    width: 15px;
+    background-image: url("img/cancel.png");
+    background-size: 15px 15px;
+    margin-right: 2px;
+    display: none;
+}
+.search-input{
+    -moz-box-flex: 1;
+    display: none;
+}
+.search-input input{
+    width: 100%;
+    border: none;
+}
+.search-cancel{
+    font-size: 16px;
+    color: #00a5e0;
+    border: none;
+    margin-left: 10px;
+    background-color: #ebeced;
+    display: none;
+}
+
+.search-wrap.focus .search-input,.search-wrap.focus .search-cancel,.search-wrap.focus .search-icon-delete{
+    display:block;
+}
+
+.search-wrap.focus .search-text{
+    display: none;
+}
+
+.search-table{
+    display: -webkit-box;
+    -moz-box-pack: center;
+}
+
+.search-table table{
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table,tr,th,td{
+    border:1px solid #ebeced
+}
+
+th,td{
+    padding: 5px 50px;
+    text-align: center;
+}
